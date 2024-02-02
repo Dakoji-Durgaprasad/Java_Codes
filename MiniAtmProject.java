@@ -30,7 +30,7 @@ public class MiniAtmProject {
 		switch(opt){
 		case 1:
 			if(pin(a)) {
-			System.out.println(Balance);
+			System.out.println("Your current Balance is : "+Balance +"\n");
 			}else {
 				System.out.println("Enter valid Pin!");
 			}
