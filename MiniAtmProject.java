@@ -10,8 +10,6 @@ public class MiniAtmProject {
 		int password=1234;
 		int a=0;
 		
-		
-		
 		while(true) { 
 		System.out.println("Welcome to ATM \n");
 		System.out.println("Please choose an option: ");
@@ -86,11 +84,7 @@ public class MiniAtmProject {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter your four digit pin: ");
 		 a = sc.nextInt(); 
-		
 		 return(a==password);
-
 		}
-		
+	
 	}
-
-
