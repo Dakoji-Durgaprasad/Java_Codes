@@ -80,13 +80,11 @@ public class MiniAtm {
 		}
 		}
 		}
-		public static boolean pin(int pin) {
-		
+		public static boolean pin(int pin) {	
 		int password = 1234;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter your four digit pin: ");
 		pin = sc.nextInt(); 
 		 return(pin==password);
 		}
-	
 	}
